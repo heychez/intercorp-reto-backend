@@ -75,7 +75,7 @@ public class ClienteService {
 		int maxEdad = clientes.get(0).getEdad();
 		double[][] tablaDeVida = new double[maxEdad][4];
 		for (int i = 0; i < maxEdad; i++) {
-			for (int j = 0; i < 4; j++) {
+			for (int j = 0; j < 4; j++) {
 				tablaDeVida[i][j] = 0;
 			}
 		}
